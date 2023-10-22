@@ -1,0 +1,8 @@
+from binascii import unhexlify
+
+# Defining the hex string in bytes.
+hex_string = b'63727970746f7b596f755f77696c6c5f62655f776f726b696e675f776974685f6865785f737472696e67735f615f6c6f747d'
+
+flag = unhexlify(hex_string)
+
+print(flag)
